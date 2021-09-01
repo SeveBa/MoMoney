@@ -3,24 +3,25 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "dependencies": {
-    "express": "^4.17.1",
-    "node": "^16.6.1"
-  },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "lite-server": "lite-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SeveBa/MoMoney.git"
+    "url": "git+https://github.com/coding-boot-camp/unit18hw.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SeveBa/MoMoney/issues"
+    "url": "https://github.com/coding-boot-camp/unit18hw/issues"
   },
-  "homepage": "https://github.com/SeveBa/MoMoney#readme"
+  "homepage": "https://github.com/coding-boot-camp/unit18hw#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.8",
+    "morgan": "^1.10.0"
+  }
 }
